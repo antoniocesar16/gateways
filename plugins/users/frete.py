@@ -33,6 +33,22 @@ async def frete(c: Client, m: Union[Message, CallbackQuery]):
     preco8 = "3"
     preco9 = "10"
     preco10 = "2"
+    preco11 = "5"
+    preco12 = "6"
+    preco13 = "9"
+    preco14 = "11"
+    preco15 = "98"
+    preco16 = "7"
+    preco17 = "1"
+    preco18 = "3"
+    preco19 = "10"
+    preco20 = "2"
+    preco21 = "5"
+    preco22 = "6"
+    preco23 = "9"
+    preco24 = "11"
+    preco25 = "98"
+    preco26 = "7"
     
 
     rt = cur.execute(
@@ -70,64 +86,64 @@ async def frete(c: Client, m: Union[Message, CallbackQuery]):
             
             [
                 InlineKeyboardButton("AP", callback_data=f"frete_3 {preco2} Amapá"),
-                InlineKeyboardButton("AM", callback_data=f"cardapio_3 {preco3} SKYWALKER"),
+                InlineKeyboardButton("AM", callback_data=f"frete_3 {preco3} Amazonas"),
                 
             ],
             [
-            InlineKeyboardButton("BA", callback_data=f"cardapio_4 {preco4} SKYWALKER"),
-            InlineKeyboardButton("CE", callback_data=f"cardapio_5 {preco5} SKYWALKER"),
+            InlineKeyboardButton("BA", callback_data=f"frete_4 {preco4} Bahia"),
+            InlineKeyboardButton("CE", callback_data=f"frete_5 {preco5} Ceará"),
             ],
             
              [
-            InlineKeyboardButton("DF", callback_data=f"cardapio_6 {preco6} SKYWALKER"),
-                InlineKeyboardButton("ES", callback_data=f"cardapio_7 {preco7} SKYWALKER"),
+            InlineKeyboardButton("DF", callback_data=f"frete_6 {preco6} Distrito Federal"),
+                InlineKeyboardButton("ES", callback_data=f"frete_7 {preco7} Espírito Santo"),
             ],
              [
-            InlineKeyboardButton("GO", callback_data=f"cardapio_8 {preco8} SKYWALKER"),
-                InlineKeyboardButton("MA", callback_data=f"cardapio_9 {preco9} SKYWALKER"),
+            InlineKeyboardButton("GO", callback_data=f"frete_8 {preco8} Goiás"),
+                InlineKeyboardButton("MA", callback_data=f"frete_9 {preco9} Maranhão"),
             ],
             
             [
-                InlineKeyboardButton("MT", callback_data=f"cardapio_1 {preco1} SKYWALKER"),
-                InlineKeyboardButton("MS", callback_data=f"cardapio_10 {preco10} SKYWALKER"),
+                InlineKeyboardButton("MT", callback_data=f"frete_1 {preco1} Mato Grosso"),
+                InlineKeyboardButton("MS", callback_data=f"frete_10 {preco10} Mato Grosso do Sul"),
             ],
             
             [
-                InlineKeyboardButton("MG", callback_data=f"cardapio_2 {preco2} SKYWALKER"),
-                InlineKeyboardButton("PA", callback_data=f"cardapio_3 {preco3} SKYWALKER"),
+                InlineKeyboardButton("MG", callback_data=f"frete_2 {preco2} Minas Gerais"),
+                InlineKeyboardButton("PA", callback_data=f"frete_3 {preco3} Pará"),
                 
             ],
             [
-            InlineKeyboardButton("PB", callback_data=f"cardapio_4 {preco4} SKYWALKER"),
-            InlineKeyboardButton("PR", callback_data=f"cardapio_5 {preco5} SKYWALKER"),
+            InlineKeyboardButton("PB", callback_data=f"frete_4 {preco4} Paraíba"),
+            InlineKeyboardButton("PR", callback_data=f"frete_5 {preco5} Paraná"),
             ],
             
              [
-            InlineKeyboardButton("PE", callback_data=f"cardapio_6 {preco6} SKYWALKER"),
-                InlineKeyboardButton("PI", callback_data=f"cardapio_7 {preco7} SKYWALKER"),
+            InlineKeyboardButton("PE", callback_data=f"frete_6 {preco6} Pernambuco"),
+                InlineKeyboardButton("PI", callback_data=f"frete_7 {preco7} Piauí"),
             ],
              [
-            InlineKeyboardButton("RJ", callback_data=f"cardapio_8 {preco8} SKYWALKER"),
-                InlineKeyboardButton("RN", callback_data=f"cardapio_9 {preco9} SKYWALKER"),
+            InlineKeyboardButton("RJ", callback_data=f"frete_8 {preco8} Rio de Janeiro"),
+                InlineKeyboardButton("RN", callback_data=f"frete_9 {preco9} Rio Grande do Norte"),
             ],
             
             [
-                InlineKeyboardButton("RS", callback_data=f"cardapio_1 {preco1} SKYWALKER"),
-                InlineKeyboardButton("RO", callback_data=f"cardapio_10 {preco10} SKYWALKER"),
+                InlineKeyboardButton("RS", callback_data=f"frete_1 {preco1} Rio Grande do Sul"),
+                InlineKeyboardButton("RO", callback_data=f"frete_10 {preco10} Rondônia"),
             ],
             
             [
-                InlineKeyboardButton("RR", callback_data=f"cardapio_2 {preco2} SKYWALKER"),
-                InlineKeyboardButton("SP", callback_data=f"cardapio_3 {preco3} SKYWALKER"),
+                InlineKeyboardButton("RR", callback_data=f"frete_2 {preco2} Roraima"),
+                InlineKeyboardButton("SP", callback_data=f"frete_3 {preco3} São Paulo"),
                 
             ],
             [
-            InlineKeyboardButton("SC", callback_data=f"cardapio_4 {preco4} SKYWALKER"),
-            InlineKeyboardButton("SE", callback_data=f"cardapio_5 {preco5} SKYWALKER"),
+            InlineKeyboardButton("SC", callback_data=f"frete_4 {preco4} Santa Catarina"),
+            InlineKeyboardButton("SE", callback_data=f"frete_5 {preco5} Sergipe"),
             ],
             
              [
-            InlineKeyboardButton("TO", callback_data=f"cardapio_6 {preco6} SKYWALKER"),
+            InlineKeyboardButton("TO", callback_data=f"frete_6 {preco6} Tocantins"),
             ],
             [
             InlineKeyboardButton("Voltar", callback_data=f"start"),
