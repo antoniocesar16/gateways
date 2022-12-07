@@ -938,4 +938,4 @@ Observações: em caso de problemas entraremos em contato</b>
 Valor: {qry}
 
 Status: Pago com sucesso"""	  
-    await c.send_message(ADMIN_CHAT, adm_msg)i
+    await c.send_message(ADMIN_CHAT, adm_msg)
