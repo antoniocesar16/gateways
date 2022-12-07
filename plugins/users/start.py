@@ -50,7 +50,7 @@ async def start(c: Client, m: Union[Message, CallbackQuery]):
     kb = InlineKeyboardMarkup(
         inline_keyboard=[
             [
-                InlineKeyboardButton("✨ COMPRAR", callback_data="cardapio"),
+                InlineKeyboardButton("🛍 COMPRAR", callback_data="cardapio"),
                 InlineKeyboardButton("💸 ADD SALDO", callback_data="add_saldo"),
             ],
             
@@ -63,7 +63,7 @@ async def start(c: Client, m: Union[Message, CallbackQuery]):
                  InlineKeyboardButton("👤 SEU PERFIL", callback_data="user_info"),
                 InlineKeyboardButton(
                                 text="⚙ SUPORTE",
-                                url=f"https://t.me/devneycc",
+                                url=f"https://t.me/sltm7",
                             ),
                         ],
         ]
@@ -75,13 +75,9 @@ async def start(c: Client, m: Union[Message, CallbackQuery]):
 
     start_message = f"""OLÁ {m.from_user.first_name},
 <a href='https://i.ibb.co/Z1YGhcg/SKY.jpg'>&#8204</a>
-⭐Seja bem vindo⭐
-❓Dúvidas❓ - chame o <a href='https://t.me/devneycc'>Suporte</a>
-✅ O bico pode ou n ta segurando o documento!
-👤 Todos documentos vem com foto!
-💰 Faça recargas rapidamente pelo /pix!
-🔰 docs virgens nunca vendidos antes!
-📝 Antes de comprar leia as <a href='https://t.me/bestbotv3'>👉 Regras</a>
+⭐️Seja bem vindo⭐️
+Essa é nossa loja de produtos fisicos confira alguns exemplos interagindo com os botões abaixo.
+📝 Antes de comprar leia as <a href='link'>👉 Regras</a>
 
 {get_info_wallet(user_id)}
 
