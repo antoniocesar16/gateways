@@ -134,7 +134,7 @@ async def frete(c: Client, m: Union[Message, CallbackQuery]):
             
             [
                 InlineKeyboardButton("RR", callback_data=f"frete_2 {preco2} Roraima"),
-                InlineKeyboardButton("SP", callback_data=f"frete_3 {preco3} Sao Paulo"),
+                InlineKeyboardButton("SP", callback_data=f"frete_3 {preco3} SaoPaulo"),
                 
             ],
             [
